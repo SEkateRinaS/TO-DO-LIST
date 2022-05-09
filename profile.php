@@ -1,9 +1,3 @@
-<?php
-session_start();
-if (!$_SESSION['user']) {
-    header('Location: /');
-}
-?>
 
 <!doctype html>
 <html lang="en">
